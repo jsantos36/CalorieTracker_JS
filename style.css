@@ -1,0 +1,92 @@
+/*
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-container {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(13, 13, 212);
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+.cal-count-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    height: 100px;
+    text-align: left;
+    font-size: 22px;
+}
+
+#goal-count-container, #consumed-count-container, #remaining-count-container{
+    width: 360px;
+    height: 100px;
+    float: left;
+
+}
+
+#goal-count-container {
+    background-color: cadetblue;
+}
+
+#consumed-count-container {
+    background-color: chartreuse;
+}
+
+#remaining-count-container {
+    background-color: chocolate;
+}
+
+#goal-word-label, #consumed-word-label, #remaining-word-label {
+    background-color: crimson;
+    height: 25px;
+}
+
+#goal-word-label {
+    width: 50px;
+}
+
+#consumed-word-label {
+    width: 100px;
+}
+
+#remaining-word-label {
+    width: 105px;
+}
+
+#goal-count-label{
+    background-color: burlywood;
+    font-size: 90px;
+    text-align: center;
+    width: 310px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+
+}
+
+#consumed-count-label{
+    background-color: cyan;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-container {
+    display: flexbox;
+    justify-content: space-around;
+    background-color: cyan;
+    flex-direction: row;
+    align-items: center;
+}
+
